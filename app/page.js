@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useState } from 'react';
+import { usePathname } from 'next/navigation';
 import RepoCard from './components/RepoCard';
 import './globals.css';
 
@@ -9,9 +10,11 @@ export default function Home() {
   const [sortKey, setSortKey] = useState("stars");
   const [languageFilter, setLanguageFilter] = useState("");
   const username = process.env.NEXT_PUBLIC_GH_USERNAME;
+  const pathname = usePathname();
 
   useEffect(() => {
-    fetch('/repos.json')
+    const base = pathname.startsWith('/GitHub-Portfolio') ? '/GitHub-Portfolio/' : '';
+    fetch(`${base}/repos.json`)
       .then(res => res.json())
       .then(setRepos);
   }, []);
