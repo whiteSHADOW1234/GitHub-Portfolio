@@ -80,6 +80,7 @@ jobs:
         env:
           GH_USERNAME: ${{ secrets.GH_USERNAME }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          NEXT_PUBLIC_GH_USERNAME: ${{ secrets.NEXT_PUBLIC_GH_USERNAME }}
       - name: Build with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
       - name: Upload artifact
@@ -92,6 +93,10 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+      env:
+          GH_USERNAME: ${{ secrets.GH_USERNAME }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          NEXT_PUBLIC_GH_USERNAME: ${{ secrets.NEXT_PUBLIC_GH_USERNAME }}
     runs-on: ubuntu-latest
     needs: build
     steps:
