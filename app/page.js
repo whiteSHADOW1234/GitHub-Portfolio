@@ -9,7 +9,7 @@ export default function Home() {
   const [query, setQuery] = useState("");
   const [sortKey, setSortKey] = useState("stars");
   const [languageFilter, setLanguageFilter] = useState("");
-  const username = process.env.NEXT_PUBLIC_GH_USERNAME;
+  const username = process.env.GH_USERNAME;
   // const pathname = usePathname();
 
   useEffect(() => {
@@ -18,6 +18,17 @@ export default function Home() {
       .then(res => res.json())
       .then(setRepos);
   }, []);
+
+  // if username is none, get the username from the repos.json file, which will be shown between `.com` and `/` in the `html_url` field
+  if (!username) {
+    const firstRepo = repos[0];
+    if (firstRepo) {
+      const match = firstRepo.html_url.match(/github\.com\/([^/]+)/);
+      if (match) {
+        username = match[1];
+      }
+    }
+  }
 
   const filtered = repos
     .filter(repo =>

@@ -70,7 +70,6 @@ jobs:
         env:
           GH_USERNAME: ${{ secrets.GH_USERNAME }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          NEXT_PUBLIC_GH_USERNAME: ${{ env.NEXT_PUBLIC_GH_USERNAME }}
       - name: Build with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
       - name: Upload artifact
