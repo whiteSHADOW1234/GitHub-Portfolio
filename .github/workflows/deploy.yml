@@ -4,7 +4,8 @@ on:
   push:
     branches: [main]
   schedule:
-    - cron: '0 */6 * * *' # Every 6 hours
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
 
 jobs:
   build-deploy:
@@ -26,11 +27,11 @@ jobs:
           GH_USERNAME: ${{ secrets.GH_USERNAME }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
 
-      - name: Build project
+      - name: Build static site
         run: npm run build
 
-      - name: Export static site
-        run: npm run export
+      - name: Show output
+        run: ls -al ./out
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
