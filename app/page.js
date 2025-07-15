@@ -14,7 +14,7 @@ export default function Home() {
 
   useEffect(() => {
     // const base = pathname.startsWith('/') ? '/GitHub-Portfolio/' : '';
-    fetch(`GitHub-Portfolio/repos.json`)
+    fetch(`repos.json`)
       .then(res => res.json())
       .then(setRepos);
   }, []);
