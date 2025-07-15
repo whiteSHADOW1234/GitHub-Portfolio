@@ -1,6 +1,5 @@
 // scripts/fetch-repos.mjs
 import fs from 'fs';
-import path from 'path';
 import fetch from 'node-fetch';
 import dotenv from 'dotenv';// Load environment variables from .env file
 
@@ -54,4 +53,4 @@ const filteredRepos = data
 console.log(`Saving ${filteredRepos.length} filtered repositories.`);
 
 
-fs.writeFileSync(path.join('public', 'repos.json'), JSON.stringify(filteredRepos, null, 2));
+fs.writeFileSync('public/repos.json', JSON.stringify(filteredRepos, null, 2));
