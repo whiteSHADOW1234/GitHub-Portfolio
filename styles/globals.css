@@ -1,0 +1,21 @@
+body {
+  font-family: sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+[data-theme='light'] {
+  --bg: #fff;
+  --text: #000;
+}
+
+[data-theme='dark'] {
+  --bg: #111;
+  --text: #eee;
+}
+
+.repo-card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin: 1rem 0;
+}
