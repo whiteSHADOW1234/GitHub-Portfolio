@@ -1,4 +1,4 @@
 export async function GET() {
-  const data = require('../../repos.json');
+  const data = require('GitHub-Portfolio/repos.json');
   return Response.json(data);
 }
