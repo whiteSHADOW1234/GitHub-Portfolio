@@ -5,6 +5,7 @@
   "scripts": {
     "dev": " node scripts/fetch-repos.mjs && next dev",
     "build": "next build",
+    "export": "next export",
     "start": "next start",
     "lint": "next lint",
     "fetch": "node scripts/fetch-repos.mjs"
