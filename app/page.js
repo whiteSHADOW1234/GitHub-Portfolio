@@ -10,11 +10,11 @@ export default function Home() {
   const [sortKey, setSortKey] = useState("stars");
   const [languageFilter, setLanguageFilter] = useState("");
   const username = process.env.NEXT_PUBLIC_GH_USERNAME;
-  const pathname = usePathname();
+  // const pathname = usePathname();
 
   useEffect(() => {
-    const base = pathname.startsWith('/GitHub-Portfolio') ? '/GitHub-Portfolio/' : '';
-    fetch(`${base}/repos.json`)
+    // const base = pathname.startsWith('/') ? '/GitHub-Portfolio/' : '';
+    fetch(`GitHub-Portfolio/repos.json`)
       .then(res => res.json())
       .then(setRepos);
   }, []);
