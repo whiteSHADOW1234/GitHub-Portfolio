@@ -1,0 +1,92 @@
+[
+  {
+    "id": 538049475,
+    "name": "CafedentialApp",
+    "description": "Rate your coffee like a pro and keep track of every brew! ☕",
+    "html_url": "https://github.com/whiteSHADOW1234/CafedentialApp",
+    "stargazers_count": 14,
+    "forks_count": 3,
+    "updated_at": "2025-06-23T09:45:24Z",
+    "language": "Dart"
+  },
+  {
+    "id": 888085115,
+    "name": "CoffeeBeanCart",
+    "description": "A full-stack coffee bean ordering web application built with React, Node.js, Express, and MySQL, featuring a modern UI, robust backend, and automated CI/CD.",
+    "html_url": "https://github.com/whiteSHADOW1234/CoffeeBeanCart",
+    "stargazers_count": 4,
+    "forks_count": 1,
+    "updated_at": "2025-02-24T14:51:00Z",
+    "language": "JavaScript"
+  },
+  {
+    "id": 890817827,
+    "name": "E-Course",
+    "description": "MERN stack course enrollment application with admin controls for managing course availability and a weekly schedule view for user enrollment.",
+    "html_url": "https://github.com/whiteSHADOW1234/E-Course",
+    "stargazers_count": 4,
+    "forks_count": 1,
+    "updated_at": "2025-02-24T14:50:59Z",
+    "language": "TypeScript"
+  },
+  {
+    "id": 944376209,
+    "name": "HackRF-One-for-Windows",
+    "description": "A practical guide to getting HackRF One up and running on Windows",
+    "html_url": "https://github.com/whiteSHADOW1234/HackRF-One-for-Windows",
+    "stargazers_count": 15,
+    "forks_count": 1,
+    "updated_at": "2025-07-02T05:39:45Z",
+    "language": "Python"
+  },
+  {
+    "id": 897795695,
+    "name": "MorphURL",
+    "description": "⚔️ A command-line tool for IP address and URL obfuscation/de-obfuscation, providing diverse techniques for enhanced privacy and security.",
+    "html_url": "https://github.com/whiteSHADOW1234/MorphURL",
+    "stargazers_count": 26,
+    "forks_count": 5,
+    "updated_at": "2025-06-11T15:44:42Z",
+    "language": "Python"
+  },
+  {
+    "id": 696625551,
+    "name": "PDF_Shield",
+    "description": "A Python tool to detect and prevent PDF‑based DoS and Embedded JavaScript attacks.",
+    "html_url": "https://github.com/whiteSHADOW1234/PDF_Shield",
+    "stargazers_count": 4,
+    "forks_count": 1,
+    "updated_at": "2025-05-08T17:55:25Z",
+    "language": "Tcl"
+  },
+  {
+    "id": 905225476,
+    "name": "PetCam",
+    "description": "A real-time pet camera application that allows users to remotely monitor and interact with their pets using a web browser, with video streamed from a designated client device to a central server and displayed on a dedicated viewing page.",
+    "html_url": "https://github.com/whiteSHADOW1234/PetCam",
+    "stargazers_count": 13,
+    "forks_count": 2,
+    "updated_at": "2025-07-02T22:39:32Z",
+    "language": "C++"
+  },
+  {
+    "id": 540676363,
+    "name": "picoCTF_writeup",
+    "description": "A beginner-friendly picoCTF guide—complete challenges using only the webshell, no Linux or VM needed!",
+    "html_url": "https://github.com/whiteSHADOW1234/picoCTF_writeup",
+    "stargazers_count": 9,
+    "forks_count": 1,
+    "updated_at": "2025-04-29T17:14:03Z",
+    "language": null
+  },
+  {
+    "id": 871358116,
+    "name": "WhisperTranscriber",
+    "description": "🎙️ Effortlessly transcribe YouTube videos, MP4, and MP3 files to text using Whisper on Google Colab — no setup required!",
+    "html_url": "https://github.com/whiteSHADOW1234/WhisperTranscriber",
+    "stargazers_count": 9,
+    "forks_count": 2,
+    "updated_at": "2025-04-29T01:15:15Z",
+    "language": "Jupyter Notebook"
+  }
+]
