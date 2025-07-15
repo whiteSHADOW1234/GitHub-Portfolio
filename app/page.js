@@ -9,7 +9,7 @@ export default function Home() {
   const [query, setQuery] = useState("");
   const [sortKey, setSortKey] = useState("stars");
   const [languageFilter, setLanguageFilter] = useState("");
-  const username = process.env.GH_USERNAME;
+  const username = process.env.NEXT_PUBLIC_GH_USERNAME;
   // const pathname = usePathname();
 
   useEffect(() => {
