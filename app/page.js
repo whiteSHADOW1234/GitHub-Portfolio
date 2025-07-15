@@ -35,7 +35,7 @@ export default function Home() {
   return (
     <main className="p-4 max-w-5xl mx-auto">
       <header className="py-10 mb-4 text-center">
-        <h1 className="text-3xl font-bold ">{username}'s Portfolio</h1>
+        <h1 className="text-3xl font-bold ">{username}&rsquo;s Portfolio</h1>
         <div className="text-sm">Total Stars: {totalStars} | Top Repo: {topRepo?.name} | Last Activity: {new Date(lastActivity).toLocaleDateString()}</div>
       </header>
       <div className="mb-4 flex flex-wrap gap-2">
