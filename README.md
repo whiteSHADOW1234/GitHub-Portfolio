@@ -18,7 +18,7 @@ Automated GitHub portfolio showcase with CI/CD deployment to GitHub Pages.
 
 ## Demo
 
-![DEMO Screenshot](screenshot.png)
+![DEMO Screenshot](screenshot.gif)
 **Link:** https://whiteshadow1234.github.io/GitHub-Portfolio/
 ## Features
 
