@@ -70,7 +70,7 @@ export default function Home() {
       <section className="mb-2 text-center">
         <p className="text-lg">
           Hi, I&rsquo;m a self-driven developer who enjoys crafting software, exploring new technologies, and solving real-world problems.
-          I'm particularly interested in fields like{' '}
+          I&rsquo;m particularly interested in fields like{' '}
         </p>
       </section>
 
