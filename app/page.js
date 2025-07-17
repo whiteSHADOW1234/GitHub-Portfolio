@@ -56,7 +56,7 @@ export default function Home() {
     <main className="p-4 max-w-5xl mx-auto">
       <header className="py-6 text-center">
         <h1 className="text-3xl font-bold">
-          {username ? `${username}’s Portfolio` : 'Loading Portfolio...'}
+          {username ? `${username}&rsquo;s Portfolio` : 'Loading Portfolio...'}
         </h1>
         {username && (
           <div className="text-sm mt-1">
@@ -69,7 +69,7 @@ export default function Home() {
       {/* Self introduction section */}
       <section className="mb-2 text-center">
         <p className="text-lg">
-          Hi, I'm a self-driven developer who enjoys crafting software, exploring new technologies, and solving real-world problems.
+          Hi, I&rsquo;m a self-driven developer who enjoys crafting software, exploring new technologies, and solving real-world problems.
           I'm particularly interested in fields like{' '}
         </p>
       </section>
