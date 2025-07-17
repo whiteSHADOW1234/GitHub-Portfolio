@@ -56,7 +56,7 @@ export default function Home() {
     <main className="p-4 max-w-5xl mx-auto">
       <header className="py-6 text-center">
         <h1 className="text-3xl font-bold">
-          {username ? `${username}&rsquo;s Portfolio` : 'Loading Portfolio...'}
+          {username ? `${username}'s Portfolio` : 'Loading Portfolio...'}
         </h1>
         {username && (
           <div className="text-sm mt-1">
