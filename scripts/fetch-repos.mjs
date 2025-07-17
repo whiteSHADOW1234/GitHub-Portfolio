@@ -48,6 +48,7 @@ const filteredRepos = data
       forks_count: repo.forks_count,
       updated_at: repo.updated_at,
       language: repo.language,
+      topics: repo.topics || [], // Ensure topics is always an array
     };
   });
 

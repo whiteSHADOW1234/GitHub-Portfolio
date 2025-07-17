@@ -6,8 +6,19 @@
     "html_url": "https://github.com/whiteSHADOW1234/CafedentialApp",
     "stargazers_count": 14,
     "forks_count": 3,
-    "updated_at": "2025-06-23T09:45:24Z",
-    "language": "Dart"
+    "updated_at": "2025-07-17T07:54:46Z",
+    "language": "Dart",
+    "topics": [
+      "coffee",
+      "coffee-lovers",
+      "cupping",
+      "flutter",
+      "mobile",
+      "note-taking",
+      "software",
+      "specialty-coffee",
+      "waterfall"
+    ]
   },
   {
     "id": 888085115,
@@ -16,8 +27,21 @@
     "html_url": "https://github.com/whiteSHADOW1234/CoffeeBeanCart",
     "stargazers_count": 4,
     "forks_count": 1,
-    "updated_at": "2025-02-24T14:51:00Z",
-    "language": "JavaScript"
+    "updated_at": "2025-07-17T07:57:26Z",
+    "language": "JavaScript",
+    "topics": [
+      "docker",
+      "docker-compose",
+      "express",
+      "full-stack-web-development",
+      "mysql",
+      "nodejs",
+      "react",
+      "restful-api",
+      "rwd-response",
+      "software",
+      "web"
+    ]
   },
   {
     "id": 890817827,
@@ -27,7 +51,17 @@
     "stargazers_count": 4,
     "forks_count": 1,
     "updated_at": "2025-02-24T14:50:59Z",
-    "language": "TypeScript"
+    "language": "TypeScript",
+    "topics": [
+      "docker",
+      "docker-compose",
+      "enrollment",
+      "express",
+      "mern-stack",
+      "mongodb",
+      "react",
+      "typescript"
+    ]
   },
   {
     "id": 944376209,
@@ -36,8 +70,20 @@
     "html_url": "https://github.com/whiteSHADOW1234/HackRF-One-for-Windows",
     "stargazers_count": 15,
     "forks_count": 1,
-    "updated_at": "2025-07-02T05:39:45Z",
-    "language": "Python"
+    "updated_at": "2025-07-17T07:55:09Z",
+    "language": "Python",
+    "topics": [
+      "conda-environment",
+      "hackrf",
+      "hackrf-one",
+      "hardware",
+      "security",
+      "usbipd-win",
+      "windows",
+      "wsl",
+      "wsl-ubuntu",
+      "zadig"
+    ]
   },
   {
     "id": 897795695,
@@ -46,8 +92,21 @@
     "html_url": "https://github.com/whiteSHADOW1234/MorphURL",
     "stargazers_count": 26,
     "forks_count": 5,
-    "updated_at": "2025-06-11T15:44:42Z",
-    "language": "Python"
+    "updated_at": "2025-07-17T07:54:33Z",
+    "language": "Python",
+    "topics": [
+      "deobfuscator",
+      "http-basic-auth",
+      "ip-address",
+      "ip-obfuscator",
+      "obfuscator",
+      "percent-encoding",
+      "security",
+      "software",
+      "url",
+      "url-deobfuscation",
+      "url-obfuscator"
+    ]
   },
   {
     "id": 696625551,
@@ -56,8 +115,29 @@
     "html_url": "https://github.com/whiteSHADOW1234/PDF_Shield",
     "stargazers_count": 4,
     "forks_count": 1,
-    "updated_at": "2025-05-08T17:55:25Z",
-    "language": "Tcl"
+    "updated_at": "2025-07-17T07:56:11Z",
+    "language": "Tcl",
+    "topics": [
+      "chromium",
+      "chromium-browser",
+      "contributions-welcome",
+      "cyber-security",
+      "cybersecurity",
+      "defender",
+      "dos-attacks",
+      "infinite-loop",
+      "pdf",
+      "pdf-attack",
+      "pdf-document",
+      "pdf-security",
+      "pdfium",
+      "pdfiumviewer",
+      "python",
+      "security",
+      "security-tools",
+      "software",
+      "zip-bomb"
+    ]
   },
   {
     "id": 905225476,
@@ -66,8 +146,22 @@
     "html_url": "https://github.com/whiteSHADOW1234/PetCam",
     "stargazers_count": 13,
     "forks_count": 2,
-    "updated_at": "2025-07-02T22:39:32Z",
-    "language": "C++"
+    "updated_at": "2025-07-17T07:57:03Z",
+    "language": "C++",
+    "topics": [
+      "browser-based",
+      "esp32",
+      "hardware",
+      "iot",
+      "monitor",
+      "monitoring-tool",
+      "pet-project",
+      "real-time-communication",
+      "software",
+      "web",
+      "webrtc",
+      "websockets"
+    ]
   },
   {
     "id": 540676363,
@@ -76,8 +170,18 @@
     "html_url": "https://github.com/whiteSHADOW1234/picoCTF_writeup",
     "stargazers_count": 9,
     "forks_count": 1,
-    "updated_at": "2025-04-29T17:14:03Z",
-    "language": null
+    "updated_at": "2025-07-17T07:53:48Z",
+    "language": null,
+    "topics": [
+      "ctf",
+      "ctf-challenges",
+      "ctf-solutions",
+      "ctf-writeups",
+      "picoctf",
+      "picoctf-writeups",
+      "picoctfsolutions",
+      "security"
+    ]
   },
   {
     "id": 871358116,
@@ -86,7 +190,16 @@
     "html_url": "https://github.com/whiteSHADOW1234/WhisperTranscriber",
     "stargazers_count": 9,
     "forks_count": 2,
-    "updated_at": "2025-04-29T01:15:15Z",
-    "language": "Jupyter Notebook"
+    "updated_at": "2025-07-17T07:54:16Z",
+    "language": "Jupyter Notebook",
+    "topics": [
+      "colab",
+      "colab-notebook",
+      "colaboratory",
+      "machine-learning",
+      "software",
+      "whisper",
+      "whisper-ai"
+    ]
   }
 ]
