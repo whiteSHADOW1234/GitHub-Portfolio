@@ -67,9 +67,9 @@ export default function Home() {
       </header>
 
       {/* Self introduction section */}
-      <section className="mb-2 text-center">
+      <section className="mb-2 text-center mx-auto max-w-xl">
         <p className="text-lg">
-          Hi, I&rsquo;m a self-driven developer who enjoys crafting software, exploring new technologies, and solving real-world problems.
+          Hi, I&rsquo;m a developer who enjoys exploring new technologies, and solving real-world problems.
           I&rsquo;m particularly interested in fields like{' '}
         </p>
       </section>
