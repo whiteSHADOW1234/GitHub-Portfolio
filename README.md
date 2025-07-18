@@ -109,8 +109,6 @@ github-portfolio/
     
 > [!NOTE]
 > To fully use the **tag filtering** feature, make sure you’ve added the matching topic tags (e.g., `security`, `hardware`, `software`, `machine-learning`) in the **"Topics"** section of each GitHub repository — visit your repo page → **About → Topics** to add them.  
-> Repos without those topics won’t be included when users click their respective tags.  
-> This simple step ensures your project cards respond correctly to the filters!
 
 8. Deploy GitHub Pages
     Push the updated code to the `main` branch to trigger the GitHub Actions' deployment workflow.
