@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/badge/npm-10.9.0-orange?style=for-the-badge" alt="NPM Badge" />
   <img src="https://img.shields.io/badge/PRs-welcome-black?style=for-the-badge" alt="PRs Welcome Badge" />
 </p>
-Automated GitHub portfolio showcase with CI/CD deployment to GitHub Pages.
+**GitHub‑Portfolio** is a static Next.js site that automatically pulls in your public GitHub repos and showcases them—alongside a personalized intro—via **interactive, clickable tags** like `security`, `software`, `hardware`, and `machine-learning`. Unlike typical portfolio templates, it combines **hands-free GitHub automation**, **developer-defined** topical interests, and dynamic filtering to create a personalized, always-updated showcase. Just fork, customize your tags and intro, and deploy instantly with GitHub Pages—all without a backend.
 
 ## Table of Contents
 - [Demo](#demo)
@@ -19,10 +19,13 @@ Automated GitHub portfolio showcase with CI/CD deployment to GitHub Pages.
 ## Demo
 
 ![DEMO Screenshot](screenshot.gif)
-**Link:** https://whiteshadow1234.github.io/GitHub-Portfolio/
+**Live Site:** https://whiteshadow1234.github.io/GitHub-Portfolio/
+
 ## Features
 
 - 🚀 **Automated Updates**: Fetches repository data every 6 hours
+- 🧩 **Self‑Intro Section**: Brief developer introduction with following tag section
+- 🧭 **Tag Filters**: Filter projects by self-defined tags like **security**, **software**, **hardware**, **machine‑learning** 
 - 🔍 **Search & Filter**: Find repositories by name, description, or language
 - 📊 **Analytics**: View total stars, forks, and activity insights
 - 📱 **Responsive Design**: Works on desktop, tablet, and mobile
@@ -80,17 +83,36 @@ github-portfolio/
     ...
     ]
     ```
-6. Deploy GitHub Pages
-    Push the updated code to the `main` branch to trigger the GitHub Actions' deployment workflow.
-
+6. Complete the **Self-Intro** section in `app/pages.js`
+    ```javascript
+        {/* Self introduction section */}
+        <section className="mb-2 text-center mx-auto max-w-xl">
+            <p className="text-lg">
+            Hi, I&rsquo;m a developer who enjoys exploring new technologies, and solving real-world problems.
+            I&rsquo;m particularly interested in fields like{' '}
+            </p>
+        </section>
+    ```
+7. Define the **Tag section** in `app/pages.js`
+    ```javascript
+    const availableTags  = [
+        'security',
+        'hardware',
+        'software',
+        'web',
+        'mobile',
+        'machine-learning',
+        ...
+    ];
+    ```
+    
 > [!NOTE]
-> If you want to run this project locally, please update the code in `app/api/repos.js` as the following:
-> ```javascript
-> export async function GET() {
->   const data = require('repos.json');
->   return Response.json(data);
-> }
-> ```
+> To fully use the **tag filtering** feature, make sure you’ve added the matching topic tags (e.g., `security`, `hardware`, `software`, `machine-learning`) in the **"Topics"** section of each GitHub repository — visit your repo page → **About → Topics** to add them.  
+> Repos without those topics won’t be included when users click their respective tags.  
+> This simple step ensures your project cards respond correctly to the filters!
+
+8. Deploy GitHub Pages
+    Push the updated code to the `main` branch to trigger the GitHub Actions' deployment workflow.
 
 ### Development Commands
 ```bash
@@ -98,7 +120,7 @@ github-portfolio/
 npm run dev
 
 # Fetch latest repositories
-npm run fetch-repos
+npm run fetch
 
 # Build for production
 npm run build
@@ -125,7 +147,7 @@ For higher API rate limits, create a GitHub Personal Access Token:
 - Provides 5000 requests/hour vs 60 without token
 
 ### CI/CD Workflow
-The GitHub Actions workflow (.github/workflows/deploy.yml):
+The GitHub Actions workflow (`.github/workflows/nextjs.yml`):
 
 - **Triggers:** Push to main, every 6 hours, manual dispatch
 - **Steps:**
