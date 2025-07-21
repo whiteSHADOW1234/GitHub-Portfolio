@@ -151,12 +151,12 @@ The GitHub Actions workflow (`.github/workflows/nextjs.yml`):
 
 - **Triggers:** Push to main, every 6 hours, manual dispatch
 - **Steps:**
-1. Checkout code
-2. Setup Node.js
-3. Install dependencies
-4. Fetch latest repositories
-5. Build Next.js app
-6. Deploy to GitHub Pages
+    1. Checkout code
+    2. Setup Node.js
+    3. Install dependencies
+    4. Fetch latest repositories
+    5. Build Next.js app
+    6. Deploy to GitHub Pages
 
 ## Contributing
 
