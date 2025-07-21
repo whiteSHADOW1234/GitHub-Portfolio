@@ -10,6 +10,9 @@
 
 **GitHub‑Portfolio** is a static Next.js site that automatically pulls in your public GitHub repos and showcases them—alongside a personalized intro—via **interactive, clickable tags** like `security`, `software`, `hardware`, and `machine-learning`. Unlike typical portfolio templates, it combines **hands-free GitHub automation**, **developer-defined** topical interests, and dynamic filtering to create a personalized, always-updated showcase. Just fork, customize your tags and intro, and deploy instantly with GitHub Pages—all without a backend.
 
+> [!NOTE]
+> 💡 **This project is intentionally simple and beginner-friendly.** Feel free to tweak the UI, refactor components, change layout behavior, or even replace the entire filtering logic—this is just a basic starter to get you up and running quickly. Your creativity is welcome!
+
 ## Table of Contents
 - [Demo](#demo)
 - [Features](#features)
@@ -30,8 +33,6 @@
 - 🔍 **Search & Filter**: Find repositories by name, description, or language
 - 📊 **Analytics**: View total stars, forks, and activity insights
 - 📱 **Responsive Design**: Works on desktop, tablet, and mobile
-- 🔗 **Embed Widget**: Share repository cards on other websites
-- ⚡ **Fast Loading**: Static generation with Next.js
 - 🔧 **Easy Setup**: One-click deployment with GitHub Actions
 
 ### Main File structure
@@ -111,6 +112,7 @@ github-portfolio/
 > To fully use the **tag filtering** feature, make sure you’ve added the matching topic tags (e.g., `security`, `hardware`, `software`, `machine-learning`) in the **"Topics"** section of each GitHub repository — visit your repo page → **About → Topics** to add them.  
 
 8. Deploy GitHub Pages
+
     Push the updated code to the `main` branch to trigger the GitHub Actions' deployment workflow.
 
 ### Development Commands
