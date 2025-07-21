@@ -7,12 +7,13 @@
   <img src="https://img.shields.io/badge/npm-10.9.0-orange?style=for-the-badge" alt="NPM Badge" />
   <img src="https://img.shields.io/badge/PRs-welcome-black?style=for-the-badge" alt="PRs Welcome Badge" />
 </p>
+
 **GitHub‑Portfolio** is a static Next.js site that automatically pulls in your public GitHub repos and showcases them—alongside a personalized intro—via **interactive, clickable tags** like `security`, `software`, `hardware`, and `machine-learning`. Unlike typical portfolio templates, it combines **hands-free GitHub automation**, **developer-defined** topical interests, and dynamic filtering to create a personalized, always-updated showcase. Just fork, customize your tags and intro, and deploy instantly with GitHub Pages—all without a backend.
 
 ## Table of Contents
 - [Demo](#demo)
 - [Features](#features)
-- [Setup & Usage](#setup-usage)
+- [Setup & Usage](#setup--usage)
 - [Contributing](#contributing)
 
 
@@ -62,7 +63,7 @@ github-portfolio/
     Click the `Fork` button in the top right corner of this repository.
 2. Clone the repository
     ```bash
-    git clone https://github.com/YOUR_USERNAME/github-portfolio.git
+    git clone https://github.com/whiteSHADOW1234/github-portfolio.git
     cd github-portfolio
     ```
 3. Install dependencies
@@ -108,8 +109,6 @@ github-portfolio/
     
 > [!NOTE]
 > To fully use the **tag filtering** feature, make sure you’ve added the matching topic tags (e.g., `security`, `hardware`, `software`, `machine-learning`) in the **"Topics"** section of each GitHub repository — visit your repo page → **About → Topics** to add them.  
-> Repos without those topics won’t be included when users click their respective tags.  
-> This simple step ensures your project cards respond correctly to the filters!
 
 8. Deploy GitHub Pages
     Push the updated code to the `main` branch to trigger the GitHub Actions' deployment workflow.
