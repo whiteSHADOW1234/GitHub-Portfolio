@@ -73,7 +73,6 @@ github-portfolio/
     Create a `.env` file right under the root directory and fill in the data:
     ```bash
     GH_USERNAME=YOUR_USERNAME
-    GH_TOKEN=YOUR_GITHUB_TOKEN
     ```
 5. Define the repositories you want to show on the portfolio in `scripts/fetch-repos.mjs`
     ```javascript
