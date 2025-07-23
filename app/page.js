@@ -1,5 +1,6 @@
 "use client";
 
+import Head from 'next/head';
 import { useEffect, useState } from 'react';
 import RepoCard from './components/RepoCard';
 import './globals.css';
@@ -27,6 +28,7 @@ export default function Home() {
         const firstUrl = data.repos[0]?.html_url;
         const match = firstUrl?.match(/github\.com\/([^/]+)/);
         if (match) setUsername(match[1]);
+        document.title = `${match[1]}’s Portfolio`;
       })
       .catch(console.error);
   }, []);
@@ -51,7 +53,7 @@ export default function Home() {
     <main className="p-4 max-w-5xl mx-auto">
       <header className="py-6 text-center">
         <h1 className="text-3xl font-bold">
-          {username ? `${username}'s Portfolio` : 'Loading Portfolio...'}
+          {username ? `${username}` : 'Loading...'}
         </h1>
         {username && (
           <div className="text-sm mt-1">

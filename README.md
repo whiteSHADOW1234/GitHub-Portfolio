@@ -39,8 +39,6 @@
 github-portfolio/
 ├── .github/workflows/nextjs.yml     # CI/CD workflow
 ├── app/
-│   ├── api/
-│   │   └── repos.js                 # API endpoint
 │   ├── components/                 # React components
 │   │   └── RepoCard.js             # Individual repo card
 │   └── pages.js                    # Next.js pages
